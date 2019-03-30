@@ -1,0 +1,39 @@
+.App-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100vh;
+    margin: 20px;
+}
+
+.App-container > div {
+    margin: 10px;
+}
+
+#input {
+    
+    height: 100%;
+    width: 100%;
+}
+
+#textArea {
+    height: 100vh;
+    width: 100%;
+    background-color: lavender;
+    align-items: center;
+    justify-content: center;
+}
+
+#textArea > textarea {
+    height: 70%;
+    width: 90%;
+    margin-left: 10px; 
+} 
+
+#preview {
+    /* background-color: lavenderblush; */
+    height: 100%;
+    width: 100%;
+}
